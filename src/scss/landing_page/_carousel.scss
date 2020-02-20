@@ -1,0 +1,23 @@
+@import "./settings/colors";
+
+.sliderBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 35rem;
+    text-align: center;
+    background-color: $landing-page_light;
+}
+
+.sliderBox__item {
+    width: 50%;
+    height: 100%;
+}
+
+.slick-arrow {
+    margin: 0 2rem;
+}
+div.slick-prev:before,
+div.slick-next:before {
+    color: rgb(0,0,0)
+}
