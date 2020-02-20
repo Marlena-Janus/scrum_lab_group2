@@ -1,0 +1,120 @@
+.newRecipe-window {
+    padding: 0 15rem;
+
+    &__box-title,
+    &__mainInfo__boxName-title,
+    &__mainInfo__boxDescription-title,
+    &__left__box-instruction,
+    &__right__box-ingredients {
+        color: $landing-page_medium;
+        text-transform: uppercase;
+        font-weight: normal;
+    }
+}
+
+.newRecipe-window__box {
+    display: flex;
+    justify-content: space-between;
+
+    &-title {
+        align-self: flex-end;
+        color: $buttonsAndScreensHeadersColor;
+    }
+
+    &-button {
+        background: $buttonsAndScreensHeadersColor;
+        color: rgb(255, 255, 255);
+        border: none;
+        padding: 1rem;
+    }
+}
+
+.newRecipe-window__mainInfo__boxName,
+.newRecipe-window__mainInfo__boxDescription {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 5rem;
+
+    &-title {
+        width: 40%;
+        text-transform: none;
+    }
+
+    &-input {
+        width: 60%;
+        height: 50%;
+        margin: auto 0;
+    }
+}
+
+.newRecipe-window__mainInfo__boxDescription-input {
+    height: 100%;
+}
+
+.distributor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .newRecipe-window {
+
+        &__left,
+        &__right {
+            width: 50%;
+        }
+
+        &__left {
+            margin-right: 2rem;
+        }
+    }
+}
+
+.newRecipe-window__left__boxWrapper,
+.newRecipe-window__right__boxWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 1rem;
+
+    &-inputInstruction,
+    &-inputIngredients {
+        width: 93%;
+    }
+
+    &-inputInstruction {
+        height: 100%;
+    }
+
+    &-buttonInstruction,
+    &-buttonIngredients {
+        margin-top: -0.4rem;
+        border: none;
+        font-size: 2.5rem;
+        color: $succesMessageColor;
+    }
+}
+
+.newRecipe-window__box,
+.newRecipe-window__left__box-instruction,
+.newRecipe-window__right__box-ingredients {
+    border-bottom: .3rem solid $landing-page_light;
+    margin-top: 3rem;
+    padding-bottom: .5rem;
+}
+
+.newRecipe-window__left__boxWrapper,
+.newRecipe-window__right__boxWrapper {
+    height: 5rem;
+}
+
+.newRecipe-window__left__ingredientsList__item {
+    margin-left: 1.8rem;
+}
+
+// .newRecipe-window__left__descriptionsList, .newRecipe-window__left__ingredientsList {
+//     height: 70px;
+//     overflow-y: auto;
+//     margin-top: 30px;
+// }
