@@ -77,15 +77,54 @@ class AddNewRecipe extends React.Component {
     });
   };
 
-
   render() {
     let pushInstruction = () => {
       let list = document.createElement("li");
-      let paragraph = document.createElement('p');
+      let paragraph = document.createElement("p");
+      let buttonEdit = document.createElement("button");
+      let buttonDelete = document.createElement("button");
+      let iconDelete = document.createElement("i");
+      let iconEdit = document.createElement("i");
+
+      iconEdit.classList.add("far", "fa-edit");
+      iconDelete.classList.add("far", "fa-trash-alt");
+
+      buttonDelete.appendChild(iconDelete);
+      buttonEdit.appendChild(iconEdit);
+
       list.appendChild(paragraph);
-      paragraph.innerText =this.state.steps;
-      let ol = document.querySelector('.newRecipe-window__left__descriptionList');
-      ol.appendChild(list)
+      list.appendChild(buttonEdit);
+      list.appendChild(buttonDelete);
+      paragraph.innerText = this.state.steps;
+
+      let ol = document.querySelector(
+        ".newRecipe-window__left__descriptionList"
+      );
+      ol.appendChild(list);
+    };
+    let pushIngredients = () => {
+      let list = document.createElement("li");
+      let paragraph = document.createElement("p");
+      let buttonEdit = document.createElement("button");
+      let buttonDelete = document.createElement("button");
+      let iconDelete = document.createElement("i");
+      let iconEdit = document.createElement("i");
+
+      iconEdit.classList.add("far", "fa-edit");
+      iconDelete.classList.add("far", "fa-trash-alt");
+
+      buttonDelete.appendChild(iconDelete);
+      buttonEdit.appendChild(iconEdit);
+      
+      list.appendChild(paragraph);
+      list.appendChild(buttonEdit);
+      list.appendChild(buttonDelete);
+      paragraph.innerText = this.state.ingredients;
+
+      let ul = document.querySelector(
+        ".newRecipe-window__right__ingredientsList"
+      );
+      ul.appendChild(list);
     };
     return (
       <div className="newRecipe-window">
@@ -180,14 +219,14 @@ class AddNewRecipe extends React.Component {
                   value={this.state.ingredients}
                   onChange={this.handleChangeIngredients}
                 ></input>
-                <button className="newRecipe-window__right__boxWrapper-buttonIngredients">
+                <button className="newRecipe-window__right__boxWrapper-buttonIngredients" onClick={pushIngredients}>
                   <i className="fas fa-plus-square"></i>
                 </button>
               </div>
             </div>
 
             <ul className="newRecipe-window__right__ingredientsList">
-              <li className="newRecipe-window__right__ingredientsList__item">
+              {/* <li className="newRecipe-window__right__ingredientsList__item">
                 <p className="newRecipe-window__right__ingredientsList__item-paragraph">
                   jajko
                 </p>
@@ -241,7 +280,7 @@ class AddNewRecipe extends React.Component {
                 <button className="newRecipe-window__right__ingredientsList__item-buttonDelete">
                   <i className="far fa-trash-alt"></i>
                 </button>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
