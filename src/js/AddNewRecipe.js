@@ -41,29 +41,59 @@ class AddNewRecipe extends React.Component {
 
             <ol className="newRecipe-window__left__descriptionList">
               <li className="newRecipe-window__left__descriptionList__item">
-                <p className="newRecipe-window__left__descriptionList__item-paragraph"></p>
-                <button className="newRecipe-window__left__descriptionList__item-buttonWrite"></button>
-                <button className="newRecipe-window__left__descriptionList__item-buttonDelete"></button>
+                <p className="newRecipe-window__left__descriptionList__item-paragraph">
+                  lorem lorem ipsum lorem
+                </p>
+                <button className="newRecipe-window__left__descriptionList__item-buttonWrite">
+                  <i class="far fa-edit"></i>
+                </button>
+                <button className="newRecipe-window__left__descriptionList__item-buttonDelete">
+                  <i class="far fa-trash-alt"></i>
+                </button>
               </li>
               <li className="newRecipe-window__left__descriptionList__item">
-                <p className="newRecipe-window__left__descriptionList__item-paragraph"></p>
-                <button className="newRecipe-window__left__descriptionList__item-buttonWrite"></button>
-                <button className="newRecipe-window__left__descriptionList__item-buttonDelete"></button>
+                <p className="newRecipe-window__left__descriptionList__item-paragraph">
+                  lorem lorem ipsum lorem
+                </p>
+                <button className="newRecipe-window__left__descriptionList__item-buttonWrite">
+                  <i class="far fa-edit"></i>
+                </button>
+                <button className="newRecipe-window__left__descriptionList__item-buttonDelete">
+                  <i class="far fa-trash-alt"></i>
+                </button>
               </li>
               <li className="newRecipe-window__left__descriptionList__item">
-                <p className="newRecipe-window__left__descriptionList__item-paragraph"></p>
-                <button className="newRecipe-window__left__descriptionList__item-buttonWrite"></button>
-                <button className="newRecipe-window__left__descriptionList__item-buttonDelete"></button>
+                <p className="newRecipe-window__left__descriptionList__item-paragraph">
+                  lorem lorem ipsum lorem
+                </p>
+                <button className="newRecipe-window__left__descriptionList__item-buttonWrite">
+                  <i class="far fa-edit"></i>
+                </button>
+                <button className="newRecipe-window__left__descriptionList__item-buttonDelete">
+                  <i class="far fa-trash-alt"></i>
+                </button>
               </li>
               <li className="newRecipe-window__left__descriptionList__item">
-                <p className="newRecipe-window__left__descriptionList__item-paragraph"></p>
-                <button className="newRecipe-window__left__descriptionList__item-buttonWrite"></button>
-                <button className="newRecipe-window__left__descriptionList__item-buttonDelete"></button>
+                <p className="newRecipe-window__left__descriptionList__item-paragraph">
+                  lorem lorem ipsum lorem
+                </p>
+                <button className="newRecipe-window__left__descriptionList__item-buttonWrite">
+                  <i class="far fa-edit"></i>
+                </button>
+                <button className="newRecipe-window__left__descriptionList__item-buttonDelete">
+                  <i class="far fa-trash-alt"></i>
+                </button>
               </li>
               <li className="newRecipe-window__left__descriptionList__item">
-                <p className="newRecipe-window__left__descriptionList__item-paragraph"></p>
-                <button className="newRecipe-window__left__descriptionList__item-buttonWrite"></button>
-                <button className="newRecipe-window__left__descriptionList__item-buttonDelete"></button>
+                <p className="newRecipe-window__left__descriptionList__item-paragraph">
+                  lorem lorem ipsum lorem
+                </p>
+                <button className="newRecipe-window__left__descriptionList__item-buttonWrite">
+                  <i class="far fa-edit"></i>
+                </button>
+                <button className="newRecipe-window__left__descriptionList__item-buttonDelete">
+                  <i class="far fa-trash-alt"></i>
+                </button>
               </li>
             </ol>
           </div>
@@ -81,31 +111,61 @@ class AddNewRecipe extends React.Component {
               </div>
             </div>
 
-            <ul className="newRecipe-window__left__ingredientsList">
-              <li className="newRecipe-window__left__ingredientsList__item">
-                <p className="newRecipe-window__left__ingredientsList__item-paragraph"></p>
-                <button className="newRecipe-window__left__ingredientsList__item-buttonWrite"></button>
-                <button className="newRecipe-window__left__ingredientsList__item-buttonDelete"></button>
+            <ul className="newRecipe-window__right__ingredientsList">
+              <li className="newRecipe-window__right__ingredientsList__item">
+                <p className="newRecipe-window__right__ingredientsList__item-paragraph">
+                  jajko
+                </p>
+                <button className="newRecipe-window__right__ingredientsList__item-buttonWrite">
+                  <i class="far fa-edit"></i>
+                </button>
+                <button className="newRecipe-window__right__ingredientsList__item-buttonDelete">
+                  <i class="far fa-trash-alt"></i>
+                </button>
               </li>
-              <li className="newRecipe-window__left__ingredientsList__item">
-                <p className="newRecipe-window__left__ingredientsList__item-paragraph"></p>
-                <button className="newRecipe-window__left__ingredientsList__item-buttonWrite"></button>
-                <button className="newRecipe-window__left__ingredientsList__item-buttonDelete"></button>
+              <li className="newRecipe-window__right__ingredientsList__item">
+                <p className="newRecipe-window__right__ingredientsList__item-paragraph">
+                  jajko
+                </p>
+                <button className="newRecipe-window__right__ingredientsList__item-buttonWrite">
+                  <i class="far fa-edit"></i>
+                </button>
+                <button className="newRecipe-window__right__ingredientsList__item-buttonDelete">
+                  <i class="far fa-trash-alt"></i>
+                </button>
               </li>
-              <li className="newRecipe-window__left__ingredientsList__item">
-                <p className="newRecipe-window__left__ingredientsList__item-paragraph"></p>
-                <button className="newRecipe-window__left__ingredientsList__item-buttonWrite"></button>
-                <button className="newRecipe-window__left__ingredientsList__item-buttonDelete"></button>
+              <li className="newRecipe-window__right__ingredientsList__item">
+                <p className="newRecipe-window__right__ingredientsList__item-paragraph">
+                  jajko
+                </p>
+                <button className="newRecipe-window__right__ingredientsList__item-buttonWrite">
+                  <i class="far fa-edit"></i>
+                </button>
+                <button className="newRecipe-window__right__ingredientsList__item-buttonDelete">
+                  <i class="far fa-trash-alt"></i>
+                </button>
               </li>
-              <li className="newRecipe-window__left__ingredientsList__item">
-                <p className="newRecipe-window__left__ingredientsList__item-paragraph"></p>
-                <button className="newRecipe-window__left__ingredientsList__item-buttonWrite"></button>
-                <button className="newRecipe-window__left__ingredientsList__item-buttonDelete"></button>
+              <li className="newRecipe-window__right__ingredientsList__item">
+                <p className="newRecipe-window__right__ingredientsList__item-paragraph">
+                  jajko
+                </p>
+                <button className="newRecipe-window__right__ingredientsList__item-buttonWrite">
+                  <i class="far fa-edit"></i>
+                </button>
+                <button className="newRecipe-window__right__ingredientsList__item-buttonDelete">
+                  <i class="far fa-trash-alt"></i>
+                </button>
               </li>
-              <li className="newRecipe-window__left__ingredientsList__item">
-                <p className="newRecipe-window__left__ingredientsList__item-paragraph"></p>
-                <button className="newRecipe-window__left__ingredientsList__item-buttonWrite"></button>
-                <button className="newRecipe-window__left__ingredientsList__item-buttonDelete"></button>
+              <li className="newRecipe-window__right__ingredientsList__item">
+                <p className="newRecipe-window__right__ingredientsList__item-paragraph">
+                  jajko
+                </p>
+                <button className="newRecipe-window__right__ingredientsList__item-buttonWrite">
+                  <i class="far fa-edit"></i>
+                </button>
+                <button className="newRecipe-window__right__ingredientsList__item-buttonDelete">
+                  <i class="far fa-trash-alt"></i>
+                </button>
               </li>
             </ul>
           </div>

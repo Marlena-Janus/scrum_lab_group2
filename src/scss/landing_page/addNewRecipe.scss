@@ -1,120 +1,154 @@
 .newRecipe-window {
-    padding: 0 15rem;
+  height: 50rem;
+  padding: 0 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-    &__box-title,
-    &__mainInfo__boxName-title,
-    &__mainInfo__boxDescription-title,
-    &__left__box-instruction,
-    &__right__box-ingredients {
-        color: $landing-page_medium;
-        text-transform: uppercase;
-        font-weight: normal;
-    }
+  &__box-title,
+  &__mainInfo__boxName-title,
+  &__mainInfo__boxDescription-title,
+  &__left__box-instruction,
+  &__right__box-ingredients {
+    color: $landing-page_medium;
+    text-transform: uppercase;
+    font-weight: normal;
+  }
 }
 
 .newRecipe-window__box {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 
-    &-title {
-        align-self: flex-end;
-        color: $buttonsAndScreensHeadersColor;
-    }
+  &-title {
+    align-self: flex-end;
+    color: $buttonsAndScreensHeadersColor;
+  }
 
-    &-button {
-        background: $buttonsAndScreensHeadersColor;
-        color: rgb(255, 255, 255);
-        border: none;
-        padding: 1rem;
-    }
+  &-button {
+    background: $buttonsAndScreensHeadersColor;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 1rem;
+    font-weight: bold;
+  }
+}
+
+.newRecipe-window__mainInfo {
+  margin-bottom: 3.5rem;
 }
 
 .newRecipe-window__mainInfo__boxName,
 .newRecipe-window__mainInfo__boxDescription {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 5rem;
 
-    &-title {
-        width: 40%;
-        text-transform: none;
-    }
+  &-title {
+    width: 40%;
+    text-transform: none;
+  }
 
-    &-input {
-        width: 60%;
-        height: 50%;
-        margin: auto 0;
-    }
+  &-input {
+    width: 60%;
+    height: 50%;
+    margin: auto 0;
+  }
 }
 
 .newRecipe-window__mainInfo__boxDescription-input {
-    height: 100%;
+  height: 100%;
+}
+
+.newRecipe-window__mainInfo__boxDescription-input,
+.newRecipe-window__mainInfo__boxName-input,
+.newRecipe-window__left__boxWrapper-inputInstruction,
+.newRecipe-window__right__boxWrapper-inputIngredients {
+  border: 0.2rem solid #ececee;
 }
 
 .distributor {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 
-    .newRecipe-window {
-
-        &__left,
-        &__right {
-            width: 50%;
-        }
-
-        &__left {
-            margin-right: 2rem;
-        }
+  .newRecipe-window {
+    &__left,
+    &__right {
+      width: 50%;
     }
+
+    &__left {
+      margin-right: 2rem;
+    }
+  }
 }
 
 .newRecipe-window__left__boxWrapper,
 .newRecipe-window__right__boxWrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 1rem;
 
-    &-inputInstruction,
-    &-inputIngredients {
-        width: 93%;
-    }
+  &-inputInstruction,
+  &-inputIngredients {
+    width: 93%;
+    height: 50%;
+  }
 
-    &-inputInstruction {
-        height: 100%;
-    }
+  &-inputInstruction {
+    height: 100%;
+  }
 
-    &-buttonInstruction,
-    &-buttonIngredients {
-        margin-top: -0.4rem;
-        border: none;
-        font-size: 2.5rem;
-        color: $succesMessageColor;
-    }
+  &-buttonInstruction,
+  &-buttonIngredients {
+    margin-top: -0.4rem;
+    border: none;
+    font-size: 2.5rem;
+    color: $succesMessageColor;
+  }
 }
 
 .newRecipe-window__box,
 .newRecipe-window__left__box-instruction,
 .newRecipe-window__right__box-ingredients {
-    border-bottom: .3rem solid $landing-page_light;
-    margin-top: 3rem;
-    padding-bottom: .5rem;
+  border-bottom: 0.3rem solid $landing-page_light;
+  padding-bottom: 0.5rem;
 }
 
 .newRecipe-window__left__boxWrapper,
 .newRecipe-window__right__boxWrapper {
-    height: 5rem;
+  height: 5rem;
 }
 
-.newRecipe-window__left__ingredientsList__item {
-    margin-left: 1.8rem;
+.newRecipe-window__right__ingredientsList__item {
+  margin-left: 1.8rem;
 }
 
-// .newRecipe-window__left__descriptionsList, .newRecipe-window__left__ingredientsList {
-//     height: 70px;
-//     overflow-y: auto;
-//     margin-top: 30px;
-// }
+.newRecipe-window__left__descriptionList,
+.newRecipe-window__right__ingredientsList {
+  margin-top: 2.5rem;
+  height: 8rem;
+  overflow-y: auto;
+  &__item {
+    display: flex;
+    button:nth-of-type(1) {
+      margin: 0 1rem;
+      color: $warningMessageColor;
+    }
+    button:nth-of-type(2) {
+      color: $binColor;
+    }
+  }
+}
+
+.newRecipe-window__right__ingredientsList__item-buttonDelete,
+.newRecipe-window__right__ingredientsList__item-buttonWrite,
+.newRecipe-window__left__descriptionList__item-buttonDelete,
+.newRecipe-window__left__descriptionList__item-buttonWrite {
+  border: none;
+  font-size: 1.5rem;
+}
