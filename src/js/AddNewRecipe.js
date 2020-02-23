@@ -1,12 +1,100 @@
 import React from "react";
 
 class AddNewRecipe extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: "",
+      description: "",
+      steps: [],
+      ingredients: []
+    };
+  }
+  // componentDidMount() {
+  //   fetch("http://localhost:3000/recipes")
+  //     .then(response => response.json())
+  //     .then(data =>
+  //       this.setState({
+  //         name: data.name,
+  //         description: data.description,
+  //         steps: data.steps,
+  //         ingredients: data.ingredients
+  //       })
+  //     );
+  // }
+
+  handleClick = () => {
+    const data = {
+      name: this.state.name,
+      description: this.state.description,
+      steps: this.state.steps,
+      ingredients: this.state.ingredients
+    };
+
+    fetch("http://localhost:3000/recipes", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(data)
+    })
+      .then(response => response.json())
+      .then(data => {
+        console.log(data);
+        this.setState({
+          name: this.state.name,
+          description: this.state.description,
+          steps: this.state.steps,
+          ingredients: this.state.ingredients
+        });
+      })
+      .catch(error => {
+        console.error("Error:", error);
+      });
+  };
+
+  handleChangeName = e => {
+    console.log(e.target.value);
+    this.setState({
+      name: e.target.value
+    });
+  };
+  handleChangeDescription = e => {
+    console.log(e.target.value);
+    this.setState({
+      description: e.target.value
+    });
+  };
+  handleChangeSteps = e => {
+    this.setState({
+      steps: e.target.value
+    });
+  };
+  handleChangeIngredients = e => {
+    console.log(e.target.value);
+    this.setState({
+      ingredients: e.target.value
+    });
+  };
+
+
   render() {
+    let pushInstruction = () => {
+      let list = document.createElement("li");
+      let paragraph = document.createElement('p');
+      list.appendChild(paragraph);
+      paragraph.innerText =this.state.steps;
+      let ol = document.querySelector('.newRecipe-window__left__descriptionList');
+      ol.appendChild(list)
+    };
     return (
       <div className="newRecipe-window">
         <div className="newRecipe-window__box">
           <h3 className="newRecipe-window__box-title">Nowy przepis</h3>
-          <button className="newRecipe-window__box-button">
+          <button
+            className="newRecipe-window__box-button"
+            onClick={this.handleClick}
+          >
             Zapisz i zamknij
           </button>
         </div>
@@ -16,13 +104,27 @@ class AddNewRecipe extends React.Component {
             <h3 className="newRecipe-window__mainInfo__boxName-title">
               Nazwa przepisu
             </h3>
-            <input className="newRecipe-window__mainInfo__boxName-input"></input>
+            <input
+              className="newRecipe-window__mainInfo__boxName-input"
+              type="text"
+              name="name"
+              id="name"
+              value={this.state.name}
+              onChange={this.handleChangeName}
+            ></input>
           </div>
           <div className="newRecipe-window__mainInfo__boxDescription">
             <h3 className="newRecipe-window__mainInfo__boxDescription-title">
               Opis przepisu
             </h3>
-            <textarea className="newRecipe-window__mainInfo__boxDescription-input"></textarea>
+            <textarea
+              className="newRecipe-window__mainInfo__boxDescription-input"
+              type="text"
+              name="description"
+              id="description"
+              value={this.state.description}
+              onChange={this.handleChangeDescription}
+            ></textarea>
           </div>
         </div>
         <div className="distributor">
@@ -32,69 +134,35 @@ class AddNewRecipe extends React.Component {
                 Instrukcje
               </h3>
               <div className="newRecipe-window__left__boxWrapper">
-                <textarea className="newRecipe-window__left__boxWrapper-inputInstruction"></textarea>
-                <button className="newRecipe-window__left__boxWrapper-buttonInstruction">
-                  <i class="fas fa-plus-square"></i>
+                <textarea
+                  className="newRecipe-window__left__boxWrapper-inputInstruction"
+                  type="text"
+                  name="steps"
+                  id="steps"
+                  value={this.state.steps}
+                  onChange={this.handleChangeSteps}
+                ></textarea>
+                <button
+                  className="newRecipe-window__left__boxWrapper-buttonInstruction"
+                  onClick={pushInstruction}
+                >
+                  <i className="fas fa-plus-square"></i>
                 </button>
               </div>
             </div>
 
             <ol className="newRecipe-window__left__descriptionList">
-              <li className="newRecipe-window__left__descriptionList__item">
+              {/* <li className="newRecipe-window__left__descriptionList__item">
                 <p className="newRecipe-window__left__descriptionList__item-paragraph">
-                  lorem lorem ipsum lorem
+                  {this.state.steps}
                 </p>
                 <button className="newRecipe-window__left__descriptionList__item-buttonWrite">
-                  <i class="far fa-edit"></i>
+                  <i className="far fa-edit"></i>
                 </button>
                 <button className="newRecipe-window__left__descriptionList__item-buttonDelete">
-                  <i class="far fa-trash-alt"></i>
+                  <i className="far fa-trash-alt"></i>
                 </button>
-              </li>
-              <li className="newRecipe-window__left__descriptionList__item">
-                <p className="newRecipe-window__left__descriptionList__item-paragraph">
-                  lorem lorem ipsum lorem
-                </p>
-                <button className="newRecipe-window__left__descriptionList__item-buttonWrite">
-                  <i class="far fa-edit"></i>
-                </button>
-                <button className="newRecipe-window__left__descriptionList__item-buttonDelete">
-                  <i class="far fa-trash-alt"></i>
-                </button>
-              </li>
-              <li className="newRecipe-window__left__descriptionList__item">
-                <p className="newRecipe-window__left__descriptionList__item-paragraph">
-                  lorem lorem ipsum lorem
-                </p>
-                <button className="newRecipe-window__left__descriptionList__item-buttonWrite">
-                  <i class="far fa-edit"></i>
-                </button>
-                <button className="newRecipe-window__left__descriptionList__item-buttonDelete">
-                  <i class="far fa-trash-alt"></i>
-                </button>
-              </li>
-              <li className="newRecipe-window__left__descriptionList__item">
-                <p className="newRecipe-window__left__descriptionList__item-paragraph">
-                  lorem lorem ipsum lorem
-                </p>
-                <button className="newRecipe-window__left__descriptionList__item-buttonWrite">
-                  <i class="far fa-edit"></i>
-                </button>
-                <button className="newRecipe-window__left__descriptionList__item-buttonDelete">
-                  <i class="far fa-trash-alt"></i>
-                </button>
-              </li>
-              <li className="newRecipe-window__left__descriptionList__item">
-                <p className="newRecipe-window__left__descriptionList__item-paragraph">
-                  lorem lorem ipsum lorem
-                </p>
-                <button className="newRecipe-window__left__descriptionList__item-buttonWrite">
-                  <i class="far fa-edit"></i>
-                </button>
-                <button className="newRecipe-window__left__descriptionList__item-buttonDelete">
-                  <i class="far fa-trash-alt"></i>
-                </button>
-              </li>
+              </li> */}
             </ol>
           </div>
 
@@ -104,9 +172,16 @@ class AddNewRecipe extends React.Component {
                 Składniki
               </h3>
               <div className="newRecipe-window__right__boxWrapper">
-                <input className="newRecipe-window__right__boxWrapper-inputIngredients"></input>
+                <input
+                  className="newRecipe-window__right__boxWrapper-inputIngredients"
+                  type="text"
+                  name="ingredients"
+                  id="ingredients"
+                  value={this.state.ingredients}
+                  onChange={this.handleChangeIngredients}
+                ></input>
                 <button className="newRecipe-window__right__boxWrapper-buttonIngredients">
-                  <i class="fas fa-plus-square"></i>
+                  <i className="fas fa-plus-square"></i>
                 </button>
               </div>
             </div>
@@ -117,10 +192,10 @@ class AddNewRecipe extends React.Component {
                   jajko
                 </p>
                 <button className="newRecipe-window__right__ingredientsList__item-buttonWrite">
-                  <i class="far fa-edit"></i>
+                  <i className="far fa-edit"></i>
                 </button>
                 <button className="newRecipe-window__right__ingredientsList__item-buttonDelete">
-                  <i class="far fa-trash-alt"></i>
+                  <i className="far fa-trash-alt"></i>
                 </button>
               </li>
               <li className="newRecipe-window__right__ingredientsList__item">
@@ -128,10 +203,10 @@ class AddNewRecipe extends React.Component {
                   jajko
                 </p>
                 <button className="newRecipe-window__right__ingredientsList__item-buttonWrite">
-                  <i class="far fa-edit"></i>
+                  <i className="far fa-edit"></i>
                 </button>
                 <button className="newRecipe-window__right__ingredientsList__item-buttonDelete">
-                  <i class="far fa-trash-alt"></i>
+                  <i className="far fa-trash-alt"></i>
                 </button>
               </li>
               <li className="newRecipe-window__right__ingredientsList__item">
@@ -139,10 +214,10 @@ class AddNewRecipe extends React.Component {
                   jajko
                 </p>
                 <button className="newRecipe-window__right__ingredientsList__item-buttonWrite">
-                  <i class="far fa-edit"></i>
+                  <i className="far fa-edit"></i>
                 </button>
                 <button className="newRecipe-window__right__ingredientsList__item-buttonDelete">
-                  <i class="far fa-trash-alt"></i>
+                  <i className="far fa-trash-alt"></i>
                 </button>
               </li>
               <li className="newRecipe-window__right__ingredientsList__item">
@@ -150,10 +225,10 @@ class AddNewRecipe extends React.Component {
                   jajko
                 </p>
                 <button className="newRecipe-window__right__ingredientsList__item-buttonWrite">
-                  <i class="far fa-edit"></i>
+                  <i className="far fa-edit"></i>
                 </button>
                 <button className="newRecipe-window__right__ingredientsList__item-buttonDelete">
-                  <i class="far fa-trash-alt"></i>
+                  <i className="far fa-trash-alt"></i>
                 </button>
               </li>
               <li className="newRecipe-window__right__ingredientsList__item">
@@ -161,10 +236,10 @@ class AddNewRecipe extends React.Component {
                   jajko
                 </p>
                 <button className="newRecipe-window__right__ingredientsList__item-buttonWrite">
-                  <i class="far fa-edit"></i>
+                  <i className="far fa-edit"></i>
                 </button>
                 <button className="newRecipe-window__right__ingredientsList__item-buttonDelete">
-                  <i class="far fa-trash-alt"></i>
+                  <i className="far fa-trash-alt"></i>
                 </button>
               </li>
             </ul>
