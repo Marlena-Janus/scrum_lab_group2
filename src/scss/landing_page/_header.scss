@@ -1,0 +1,32 @@
+@import "./settings/colors";
+
+header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8rem;
+  width: 100%;
+  height: 7rem;
+  background-color: $landing-page_dark;
+  box-shadow: 0 0.3rem 0.8rem 0 rgba(0, 0, 0, 0.2);
+
+  img {
+    width: 20rem;
+    height: auto;
+  }
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-family: 'Charmonman', cursive;
+  font-size: 2.8rem;
+  color: $logoColor-FirstWord;
+
+  span {
+    font-family: 'Charmonman', cursive;
+    color: $logoColor-SecondWord;
+  }
+}

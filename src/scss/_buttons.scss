@@ -1,0 +1,13 @@
+.add-recipe-btn {
+  display: flex;
+  justify-content: center;
+  .add-recipe {
+    height: 70px;
+    width: 70px;
+    img {
+      height: 30px;
+      width: 30px;
+    }
+  }
+}
+

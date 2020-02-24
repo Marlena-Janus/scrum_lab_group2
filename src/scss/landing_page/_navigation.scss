@@ -1,0 +1,22 @@
+.header__nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.header__nav-item {
+    color: $colorNav;
+}
+
+.header__nav__item-link {
+    padding: 2rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+    &:hover {
+        color: $buttonsAndScreensHeadersColor;
+        transition: .5s;
+    }
+}

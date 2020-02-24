@@ -1,0 +1,56 @@
+.reciep{
+    display: flex;
+    font-size: 16px;
+    padding: 10px 5px;
+    border-bottom: 1px solid black;
+    color:$landing-page_medium
+}
+
+.RecipientList{
+    width: 70vw;
+    padding: 10px 5px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: white;
+    font-size: 24px;
+    .id{
+        width: 70px;
+    }
+    .name{
+        width: 240px;
+    }
+    .description{
+        width: 500px;
+    }
+    
+    h3{
+        color:$buttonsAndScreensHeadersColor;
+    }
+}
+
+.RecipientListHeader{
+    display: flex;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-weight: 800;
+    color:$landing-page_dark
+}
+
+.RecipientList_child{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-plus-square{
+    color: green;
+    padding-right: 20px;
+}
+
+.fa-trash-alt{
+    color:red;
+}
+
+.fa-edit{
+color: $buttonsAndScreensHeadersColor;
+margin-right: 10px;
+}

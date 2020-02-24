@@ -1,19 +1,22 @@
 import React from "react";
-import AboutUs from './AboutUs'
-import AboutAuthor from "./AboutAuthor";
-import Footer from "./Footer";
+import Application from "./Application"
+import LandingPage from "./landing_page/LandingPage"
 
+import {
+  HashRouter,
+  Route,
+  Switch,
+} from 'react-router-dom';
 
 const App = () => {
   return (
     <>
-
-        
-          <AboutUs/>
-          <AboutAuthor/>
-          <Footer/>
-        
-     
+    <HashRouter>
+      <Switch>
+        <Route exact path='/' component={LandingPage} />
+        <Route  path='/application' component={Application} />
+      </Switch>
+    </HashRouter>
     </>
   );
 };

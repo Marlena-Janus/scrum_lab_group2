@@ -1,0 +1,39 @@
+.callAction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15rem;
+    height: 15rem;
+    background: $headerColor;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0.3rem 0.8rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.callAction__descriptionBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+}
+
+.callAction__descriptionBox-title {
+    padding-bottom: 2rem;
+}
+
+.callAction__buttonBox {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.callAction__buttonBox-btn {
+    height: 25%;
+    width: 25%;
+    font-size: 1.4rem;
+    border: none;
+    background: $buttonsAndScreensHeadersColor;
+    color: rgb(255, 255, 255);
+}

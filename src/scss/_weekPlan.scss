@@ -1,0 +1,57 @@
+@import './settings/colors';
+
+
+.weekPlan{
+    color: $landing-page_dark;
+    font-size: 24px;
+    font-weight: 800;
+    & .Monday{
+        min-width: 180px;
+    }
+    .Tuesday{
+        min-width: 120px;
+    }
+    .Wednesday{
+        min-width: 120px;
+    }
+    .Thrusday{
+        min-width: 150px;
+    }
+    .Friday{
+        min-width: 120px;
+    }
+    .Satruday{
+        min-width: 120px;
+    }
+    .Sunday{
+        min-width: 130px;
+    }
+
+}
+
+.plan{
+    width: 70vw;
+    background-color: white;
+    margin-left: 50px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+
+.weekPlan{
+    display: flex;
+}
+
+.border{
+    border-bottom: black solid 1px;
+    border-top: black solid 1px;
+    color: #b3b3a8;
+    padding-left: 7px;
+}
+
+.weekHeader{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    color: $buttonsAndScreensHeadersColor
+}
