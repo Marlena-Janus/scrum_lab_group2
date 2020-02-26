@@ -19,7 +19,6 @@ const App = () => {
           <Route exact path="/application" component={Application} />
         </Switch>
       </HashRouter>
-      <AddNewRecipe />
     </>
   );
 };
