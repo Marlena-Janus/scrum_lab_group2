@@ -4,6 +4,7 @@ import Buttons from './Buttons'
 import UserIcon from '../images/user-circle-regular.svg';
 import Background from '../images/image.png';
 import Chevron from '../images/chevron-right-solid.svg';
+import Widget from './Widget';
 
 class Application extends React.Component{
   constructor(props) {
@@ -46,11 +47,11 @@ handleChange = e => {
 
 
   renderPage = () =>{
-    
+
     if (this.state.username === ""){
       return (
         <div className="initialPage">
-          <h2>Witaj,</h2>    
+          <h2>Witaj,</h2>
           <h3>wygląda na to że jesteś tutaj <br/> pierwszy raz! </h3>
           <input type="text" name="name" id="name" placeholder="tutaj wpisz jak masz na imię" value={this.state.name} onChange={this.handleChange}/><br/>
           <button className="buttonName" onClick={this.handleClick}>Gotowe!</button>
@@ -59,16 +60,16 @@ handleChange = e => {
       )
     }
     else{
-      return<div><Buttons/></div>
+      return<div><Buttons/><Widget /></div>
     }
   }
 
   render(){
-   
+
       return (
         <>
           <header className="center">
-          <h1>
+          <h1 className="header-logo">
             <span id="first">Zaplanuj</span>
             <span id="second">Jedzonko</span>
           </h1>
@@ -92,6 +93,10 @@ handleChange = e => {
               </ul>
             </section>
             <section className="main" style={{ backgroundImage: {Background}}}>
+              <div className="wrapper">
+                {/* <Buttons />
+                <Widget /> */}
+              </div>
             <div>
               {this.renderPage()}
             </div>

@@ -1,13 +1,22 @@
 .add-recipe-btn {
   display: flex;
-  justify-content: center;
-  .add-recipe {
-    height: 70px;
-    width: 70px;
+  justify-content: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  button {
+    height: 130px;
+    width: 130px;
+    border: 2px dotted #59886a;
+    margin: 5px;
     img {
-      height: 30px;
-      width: 30px;
+      height: 90px;
+      width: 90px;
     }
   }
+}
+
+.add-recipe {
+  color: #59886a;
+  font-size: 15px;
 }
 
