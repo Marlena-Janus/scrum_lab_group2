@@ -1,0 +1,78 @@
+.meal-plan-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 950px;
+  background-color: #fff;
+  border: 2px dotted gray;
+  div {
+    display: flex;
+  }
+}
+
+.meal-plan-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px;
+  h3 {
+    color: #fd600f;
+  }
+  button {
+    background-color: #fd600f;
+    padding: 7px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+  }
+}
+
+.meal-plan-desription {
+  width: 100%;
+  margin-top: 10px;
+  p {
+    font-size: 20px;
+    font-weight: normal;
+    color: gray;
+    width: 150px;
+  }
+  input[type=text] {
+    width: 750px;
+    height: 30px;
+  }
+  input[type=number] {
+    width: 25px;
+    height: 30px;
+  }
+}
+
+.meal-plan-table {
+  margin-top: 30px;
+  table {
+    border-collapse: collapse;
+    th {
+     padding: 5px;
+     font-size: 15px;
+     font-weight: bold;
+     color: gray;
+    }
+    td {
+      padding: 5px;
+      border-bottom: 1px solid gray;
+      text-align: center;
+      select {
+        width: 100px;
+      }
+    }
+  }
+}
+
+.weekday {
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  color: gray;
+}

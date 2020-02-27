@@ -94,8 +94,6 @@ handleChange = e => {
             </section>
             <section className="main" style={{ backgroundImage: {Background}}}>
               <div className="wrapper">
-                {/* <Buttons />
-                <Widget /> */}
               </div>
             <div>
               {this.renderPage()}
