@@ -29,7 +29,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>scrum_lab_group2/chevron-right-solid.svg at MJ-Widgets · Marlena-Janus/scrum_lab_group2</title>
+  <title>scrum_lab_group2/check-circle-solid.svg at MJ-Widgets · Marlena-Janus/scrum_lab_group2</title>
     <meta name="description" content="Contribute to Marlena-Janus/scrum_lab_group2 development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -39,10 +39,10 @@
     <meta property="og:image" content="https://avatars2.githubusercontent.com/u/55731752?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="Marlena-Janus/scrum_lab_group2" /><meta property="og:url" content="https://github.com/Marlena-Janus/scrum_lab_group2" /><meta property="og:description" content="Contribute to Marlena-Janus/scrum_lab_group2 development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDgzNjA4Nzk0OjA3MzhlOWFkOGEzNTRhNDU1ZjYxOWNkMjBjNzFhZDM2OGU0NGUxNmM3MzA0NDkyYWFkYjRkNzAzM2VmY2Y1Zjk=--e0f8754b452093ac27f442c32e2b68a21af8d888">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDgzNjA4Nzk0OjEzMDcwMDU4MzdlYjE0NWI1YzVlZWE1NDA1NTQxMmU2OTA2ZmNiNDkwMGFmZDVjYzU4NTY0ZGU2ZmUzZDQ2YjA=--c9e2a78e48c9ac23e9a8f56f9d634da93d702047">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="69F5:DFC1:18209FA:2336040:5E585152" data-pjax-transient="true" /><meta name="html-safe-nonce" content="c0626f645909a4b87340092406237e895146aa77" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9NYXJsZW5hLUphbnVzL3NjcnVtX2xhYl9ncm91cDIvdHJlZS9NSi1XaWRnZXRzL3NyYy9pbWFnZXMiLCJyZXF1ZXN0X2lkIjoiNjlGNTpERkMxOjE4MjA5RkE6MjMzNjA0MDo1RTU4NTE1MiIsInZpc2l0b3JfaWQiOiIxMTI3OTU2NTM2MzIwMjM0MDYyIiwicmVnaW9uX2VkZ2UiOiJhbXMiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true" /><meta name="visitor-hmac" content="ddb17bf7a3aea768b23b94e6b8ecbf1bccb241379cd418d67e437572ae3a28bb" data-pjax-transient="true" />
+  <meta name="request-id" content="69D4:16DCC:1BBF1F7:28928DB:5E585128" data-pjax-transient="true" /><meta name="html-safe-nonce" content="c0626f645909a4b87340092406237e895146aa77" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9NYXJsZW5hLUphbnVzL3NjcnVtX2xhYl9ncm91cDIvdHJlZS9NSi1XaWRnZXRzL3NyYy9pbWFnZXMiLCJyZXF1ZXN0X2lkIjoiNjlENDoxNkRDQzoxQkJGMUY3OjI4OTI4REI6NUU1ODUxMjgiLCJ2aXNpdG9yX2lkIjoiMTEyNzk1NjUzNjMyMDIzNDA2MiIsInJlZ2lvbl9lZGdlIjoiYW1zIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true" /><meta name="visitor-hmac" content="35f0a6c4fba616e997f090995e9e2ef00406a80858d41460073446c8574c8064" data-pjax-transient="true" />
 
 
 
@@ -76,7 +76,7 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="Y2U4YTk2NWYxMDk1ZjQzZTU1MTAwZTEwYzYzYjk2OGRlNzdlNWNiNjQ5M2E4NWIzMDlhOTY0NTczNjk2NzY5M3x7InJlbW90ZV9hZGRyZXNzIjoiODMuMjYuMjEzLjE5MiIsInJlcXVlc3RfaWQiOiI2OUY1OkRGQzE6MTgyMDlGQToyMzM2MDQwOjVFNTg1MTUyIiwidGltZXN0YW1wIjoxNTgyODQ2MjkxLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+      <meta name="js-proxy-site-detection-payload" content="Mjc4ODdlOTE4M2M4MGExMTliMTU1ZGJmM2ZjMmFhZTJiOTA0NTNjMTE2OTE1NTY0OWI3ODZkM2FlODBjNmRiZHx7InJlbW90ZV9hZGRyZXNzIjoiODMuMjYuMjEzLjE5MiIsInJlcXVlc3RfaWQiOiI2OUQ0OjE2RENDOjFCQkYxRjc6Mjg5MjhEQjo1RTU4NTEyOCIsInRpbWVzdGFtcCI6MTU4Mjg0NjI1MSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
 
     <meta name="enabled-features" content="MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS,RELATED_ISSUES,GHE_CLOUD_TRIAL">
 
@@ -90,7 +90,7 @@
   <meta name="octolytics-dimension-user_id" content="55731752" /><meta name="octolytics-dimension-user_login" content="Marlena-Janus" /><meta name="octolytics-dimension-repository_id" content="241889238" /><meta name="octolytics-dimension-repository_nwo" content="Marlena-Janus/scrum_lab_group2" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="241889238" /><meta name="octolytics-dimension-repository_network_root_nwo" content="Marlena-Janus/scrum_lab_group2" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/Marlena-Janus/scrum_lab_group2/blob/MJ-Widgets/src/images/chevron-right-solid.svg" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/Marlena-Janus/scrum_lab_group2/blob/MJ-Widgets/src/images/check-circle-solid.svg" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -163,7 +163,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" value="KqjZJBwSOqFa/bNRLmTSce41qSSfoqWtDg60ftAqTCQAPLv/L67QyF2ApekYYKe6+ADQCINOYfDEcexrk5e/UA==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" value="gepNWqvyXohS8gRNeQW4+tN6JYbl/Qn2y3xgrck0l8Srfi+BmE604VWPEvVPAc0xxU9cqvkRzasBAzi4iolksA==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -314,7 +314,7 @@
       <img class="avatar" height="20" width="20" alt="@mateuszCyrys" src="https://avatars3.githubusercontent.com/u/55756371?s=60&amp;v=4" />
       mateuszCyrys
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ARC1vzvp/YznGdLq0bv14Pn3wagRbbo4MNjtDyYp4SzS9oeoqh9OMjwEO8gbLPK5xt9er913acgMSzLrxtBWuw==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="fmA9b4HhsY5io0L9jbum3oBWUibqtot4DnQ4urP2GFCthg94EBcCMLm+q99HLKGHv37NISasWIgy5+deUw+vxw==" />
       <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9V7H8V5h4V3l4 3-4 3zm-2 3H6V3L2 1h8v3h1V1c0-.55-.45-1-1-1H1C.45 0 0 .45 0 1v11.38c0 .39.22.73.55.91L6 16.01V13h4c.55 0 1-.45 1-1V8h-1v4z"/></svg>
         Sign out
@@ -408,7 +408,7 @@
   " data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
     <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit "
-      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:55731752,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:55756371,&quot;originating_url&quot;:&quot;https://github.com/Marlena-Janus/scrum_lab_group2/blob/MJ-Widgets/src/images/chevron-right-solid.svg&quot;}}" data-hydro-click-hmac="3c0bd5077c85c54c18d14cb796f1fbee3587d1248a25547086dcf65dde5444b9">
+      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:55731752,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:55756371,&quot;originating_url&quot;:&quot;https://github.com/Marlena-Janus/scrum_lab_group2/blob/MJ-Widgets/src/images/check-circle-solid.svg&quot;}}" data-hydro-click-hmac="8bfb729c420d32553173c8a0c88d0d07aad8d2dba2efe9e1352d00a8f303e1c2">
       <div class="d-flex">
         <div class="f6 lh-condensed user-status-header
           d-inline-block v-align-middle
@@ -435,7 +435,7 @@
       </div>
     </summary>
     <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="P5i3Obcq55CGfUkNCd3+8X8iJWQQnfale9iEVKxQ6JfebZkFiZcV/wIOGmnDC9Bg1E4So6MdggFPrsaJXJUm5w==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="sOLDTF3s9j0+0X0JACrFtFqNiAkRbiH8nc+AXceBPxRRF+1wY1EEUrqiLm3K/Osl8eG/zqLuVVipucKAN0TxZA==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
@@ -553,17 +553,17 @@
       </li>
       <li class="dropdown-divider" role="none"></li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-02-28T01:01:31+01:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-02-28T01:00:51+01:00">
             in 30 minutes
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-02-28T01:31:31+01:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-02-28T01:30:51+01:00">
             in 1 hour
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-02-28T04:31:31+01:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-02-28T04:30:51+01:00">
             in 4 hours
           </button>
         </li>
@@ -621,10 +621,10 @@
     class="dropdown-item btn-link"
     role="menuitem"
     data-feature-preview-trigger-url="/users/mateuszCyrys/feature_previews"
-    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/Marlena-Janus/scrum_lab_group2/blob/MJ-Widgets/src/images/chevron-right-solid.svg&quot;,&quot;user_id&quot;:55756371}}"
-    data-feature-preview-close-hmac="b974c3ef9e13b8773a16a31800d8e81dc2e33d3d8e2a1283ff7f87ab9dd9d5c3"
-    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/Marlena-Janus/scrum_lab_group2/blob/MJ-Widgets/src/images/chevron-right-solid.svg&quot;,&quot;user_id&quot;:55756371}}"
-    data-hydro-click-hmac="0f4934f0d87b53e7b1de97a7324873e94bea348f41e1f96b704d1b6c67135488"
+    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/Marlena-Janus/scrum_lab_group2/blob/MJ-Widgets/src/images/check-circle-solid.svg&quot;,&quot;user_id&quot;:55756371}}"
+    data-feature-preview-close-hmac="a7029441d454d0d0b1f8b1b1c9bfebaad3e047c9f557677bc9899a290898c937"
+    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/Marlena-Janus/scrum_lab_group2/blob/MJ-Widgets/src/images/check-circle-solid.svg&quot;,&quot;user_id&quot;:55756371}}"
+    data-hydro-click-hmac="b7044276c1dda79122c2d58098a490dd5ec4e6dccfb53b68a79a9a2dc8c5b18d"
   >
     Feature preview
   </button>
@@ -633,12 +633,12 @@
 
     <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
     <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ES3ImWlzBHg36sPDdievePAFEJ34JxBePqPSiMwUX7DCy/qO+IW3xuz3KuG8sKghzy2PmjQ9w64CMA1sLO3oJw==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="MLEyHpM/ONSEd2MCrQtko7nGbp95tc3IFho+BWGR0e3jVwAJAsmLal9qiiBnnGP6hu7xmLWvHjgqieHhgWhmeg==" />
       
       <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
         Sign out
       </button>
-      <input type="text" name="required_field_33e4" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1582846291348" class="form-control" /><input type="hidden" name="timestamp_secret" value="bc209edd98c9972aaf2d66beb914ab8e7a7cbc7ea967f13a6b0e3fd734ac943a" class="form-control" />
+      <input type="text" name="required_field_5066" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1582846251489" class="form-control" /><input type="hidden" name="timestamp_secret" value="7afee92f6efe442589d9f208a7f430d5f67ae6385e9cb96752592e42f09eef51" class="form-control" />
 </form>  </details-menu>
 </details>
 
@@ -709,10 +709,10 @@
 
   <li>
     
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="MvNY/+nPJrTj3+HKcz9j6J+OBbTzFKX0zlS3d0YAsS6lz9AJWIuBuDNthmxlGYoxmo4wo0cH40ww1EtQE/GhsQ==" />      <input type="hidden" name="repository_id" value="241889238">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="IDMVa61CZlSkwtVFHSqUKkFDijzkxRUHjtL5zh5t0G23D52dHAbBWHRwsuMLDH3zREO/K1DWU79wUgXpS5zA8g==" />      <input type="hidden" name="repository_id" value="241889238">
 
       <details class="details-reset details-overlay select-menu float-left">
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:241889238,&quot;originating_url&quot;:&quot;https://github.com/Marlena-Janus/scrum_lab_group2/blob/MJ-Widgets/src/images/chevron-right-solid.svg&quot;,&quot;user_id&quot;:55756371}}" data-hydro-click-hmac="3dfb2c87be00effccc882c383459e509080695591218fcf14c69ad2f40321970" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:241889238,&quot;originating_url&quot;:&quot;https://github.com/Marlena-Janus/scrum_lab_group2/blob/MJ-Widgets/src/images/check-circle-solid.svg&quot;,&quot;user_id&quot;:55756371}}" data-hydro-click-hmac="246e2b78b7bf8b342fb4ddbcead47b46e7a048b9811de3aeccaeaee10391ca4f" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
               Watch
           </span>
@@ -783,9 +783,9 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/Marlena-Janus/scrum_lab_group2/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="8ab8D6LwwXY+bmnLdlTebK3PyXLcJc9IEwzGI+Gl4twzVerzJvxsiKPnESGBwwG4N088lEI4HH+zhwGsyQylSg==" />
+    <form class="starred js-social-form" action="/Marlena-Janus/scrum_lab_group2/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Gk3IDbbbeNWnXQz+vUcy+Md9OGiJKDREVYneIE2Pm/LYvt7xMtfVKzrUdBRK0O0sXf3Njhc153P1AhmvZSbcZA==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar Marlena-Janus/scrum_lab_group2" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:241889238,&quot;originating_url&quot;:&quot;https://github.com/Marlena-Janus/scrum_lab_group2/blob/MJ-Widgets/src/images/chevron-right-solid.svg&quot;,&quot;user_id&quot;:55756371}}" data-hydro-click-hmac="177aa1be6a50907b571773fef7be428813910c75953c165ca224a8e5ca57a2e0" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar Marlena-Janus/scrum_lab_group2" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:241889238,&quot;originating_url&quot;:&quot;https://github.com/Marlena-Janus/scrum_lab_group2/blob/MJ-Widgets/src/images/check-circle-solid.svg&quot;,&quot;user_id&quot;:55756371}}" data-hydro-click-hmac="bb837d0867e8665ecab4a53870e2e318da439864ced53851daf93a6065f92eed" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
         Unstar
 </button>        <a class="social-count js-social-count" href="/Marlena-Janus/scrum_lab_group2/stargazers"
@@ -793,9 +793,9 @@
            0
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/Marlena-Janus/scrum_lab_group2/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="5PfDccSWmQKie0+erq5qk5rRYeOKBVyQu0MZjvY36a5DyCyxRsN46PYWKdZFImbfjDi4snxC/fUsBtWy+QzDBw==" />
+    <form class="unstarred js-social-form" action="/Marlena-Janus/scrum_lab_group2/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="kB1S/tjCivqXmeEcAZ1MBQUgg36ESbiPeLVKcfeRnk43Ir0+WpdrEMP0h1TqEUBJE8laL3IOGerv8IZN+Kq05w==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star Marlena-Janus/scrum_lab_group2" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:241889238,&quot;originating_url&quot;:&quot;https://github.com/Marlena-Janus/scrum_lab_group2/blob/MJ-Widgets/src/images/chevron-right-solid.svg&quot;,&quot;user_id&quot;:55756371}}" data-hydro-click-hmac="a098dc08443b85b93abf72caefc755187364f13dd0426df336c9f97b98655618" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star Marlena-Janus/scrum_lab_group2" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:241889238,&quot;originating_url&quot;:&quot;https://github.com/Marlena-Janus/scrum_lab_group2/blob/MJ-Widgets/src/images/check-circle-solid.svg&quot;,&quot;user_id&quot;:55756371}}" data-hydro-click-hmac="628f3a0e5f2e3800dd451dead48f906a392719b11da0dcfff3fe4384599fa93d" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
         Star
 </button>        <a class="social-count js-social-count" href="/Marlena-Janus/scrum_lab_group2/stargazers"
@@ -808,7 +808,7 @@
 
   <li>
           <details class="details-reset details-overlay details-overlay-dark d-inline-block float-left">
-            <summary class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:241889238,&quot;originating_url&quot;:&quot;https://github.com/Marlena-Janus/scrum_lab_group2/blob/MJ-Widgets/src/images/chevron-right-solid.svg&quot;,&quot;user_id&quot;:55756371}}" data-hydro-click-hmac="6b47c0a361779286906a631466c97baf67d1ca7bea8758b63f8693b7846e98e5" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" title="Fork your own copy of Marlena-Janus/scrum_lab_group2 to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <summary class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:241889238,&quot;originating_url&quot;:&quot;https://github.com/Marlena-Janus/scrum_lab_group2/blob/MJ-Widgets/src/images/check-circle-solid.svg&quot;,&quot;user_id&quot;:55756371}}" data-hydro-click-hmac="6c8402321463b7bcabcca413a4ad1118046c1af8efa2aa513a333b0e7d2adbca" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" title="Fork your own copy of Marlena-Janus/scrum_lab_group2 to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
               Fork
 </summary>            <details-dialog
               class="anim-fade-in fast Box Box--overlay d-flex flex-column"
@@ -973,9 +973,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/Marlena-Janus/scrum_lab_group2/blob/2cf913917d6c3321768afc1d5e513a5ebee0a33a/src/images/chevron-right-solid.svg">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/Marlena-Janus/scrum_lab_group2/blob/2cf913917d6c3321768afc1d5e513a5ebee0a33a/src/images/check-circle-solid.svg">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:75b089aec7814ad0c1bc91e76953cfe4 -->
+    <!-- blob contrib key: blob_contributors:v22:20058be2faf2f434ef80260a1cbc33e2 -->
       
 
     <div class="d-flex flex-items-start flex-shrink-0 flex-column flex-md-row pb-3">
@@ -990,7 +990,7 @@
     <span class="dropdown-caret"></span>
   </summary>
 
-  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/Marlena-Janus/scrum_lab_group2/refs/MJ-Widgets/src/images/chevron-right-solid.svg?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/Marlena-Janus/scrum_lab_group2/refs/MJ-Widgets/src/images/check-circle-solid.svg?source_action=show&amp;source_controller=blob" preload>
     <div class="SelectMenu-modal">
       <include-fragment class="SelectMenu-loading" aria-label="Menu is loading">
         <svg class="octicon octicon-octoface anim-pulse" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
@@ -1006,13 +1006,13 @@
                 data-hotkey="t">
             Find file
           </a>
-          <clipboard-copy value="src/images/chevron-right-solid.svg" class="btn btn-sm BtnGroup-item">
+          <clipboard-copy value="src/images/check-circle-solid.svg" class="btn btn-sm BtnGroup-item">
             Copy path
           </clipboard-copy>
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/Marlena-Janus/scrum_lab_group2/tree/MJ-Widgets"><span>scrum_lab_group2</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/Marlena-Janus/scrum_lab_group2/tree/MJ-Widgets/src"><span>src</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/Marlena-Janus/scrum_lab_group2/tree/MJ-Widgets/src/images"><span>images</span></a></span><span class="separator">/</span><strong class="final-path">chevron-right-solid.svg</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/Marlena-Janus/scrum_lab_group2/tree/MJ-Widgets"><span>scrum_lab_group2</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/Marlena-Janus/scrum_lab_group2/tree/MJ-Widgets/src"><span>src</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/Marlena-Janus/scrum_lab_group2/tree/MJ-Widgets/src/images"><span>images</span></a></span><span class="separator">/</span><strong class="final-path">check-circle-solid.svg</strong>
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
@@ -1022,7 +1022,7 @@
               data-hotkey="t">
           Find file
         </a>
-        <clipboard-copy value="src/images/chevron-right-solid.svg" class="btn btn-sm BtnGroup-item">
+        <clipboard-copy value="src/images/check-circle-solid.svg" class="btn btn-sm BtnGroup-item">
           Copy path
         </clipboard-copy>
       </div>
@@ -1032,16 +1032,45 @@
 
 
 
-    <include-fragment src="/Marlena-Janus/scrum_lab_group2/contributors/MJ-Widgets/src/images/chevron-right-solid.svg" class="Box Box--condensed commit-loader">
-      <div class="Box-body bg-blue-light f6">
-        Fetching contributors&hellip;
+    
+  <div class="Box Box--condensed d-flex flex-column flex-shrink-0">
+      <div class="Box-body d-flex flex-justify-between bg-blue-light flex-column flex-md-row flex-items-start flex-md-items-center">
+        <span class="pr-md-4 f6">
+          <img class="avatar" width="20" height="20" alt="" src="https://camo.githubusercontent.com/b5b047b2a5f9eb8f0a1c9fa8fbf8970d50632d73/68747470733a2f2f302e67726176617461722e636f6d2f6176617461722f66633636323531613830653338396530613630303961666538303030643136313f643d68747470732533412532462532466769746875622e6769746875626173736574732e636f6d253246696d6167657325324667726176617461727325324667726176617461722d757365722d3432302e706e6726723d6726733d313430" data-canonical-src="https://0.gravatar.com/avatar/fc66251a80e389e0a6009afe8000d161?d=https%3A%2F%2Fgithub.githubassets.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&amp;r=g&amp;s=140" />
+          <span class="text-bold link-gray-dark lh-default v-align-middle">Marlena</span>
+            <span class="lh-default v-align-middle">
+              <a data-pjax="true" title="Widgets view added" class="link-gray" href="/Marlena-Janus/scrum_lab_group2/commit/2cf913917d6c3321768afc1d5e513a5ebee0a33a">Widgets view added</a>
+            </span>
+        </span>
+        <span class="d-inline-block flex-shrink-0 v-align-bottom f6 mt-2 mt-md-0">
+          <a class="pr-2 text-mono link-gray" href="/Marlena-Janus/scrum_lab_group2/commit/2cf913917d6c3321768afc1d5e513a5ebee0a33a" data-pjax>2cf9139</a>
+          <relative-time datetime="2020-02-27T05:42:24Z" class="no-wrap">Feb 27, 2020</relative-time>
+        </span>
       </div>
 
-      <div class="Box-body d-flex flex-items-center" >
-        <img alt="" class="loader-loading mr-2" src="https://github.githubassets.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
-        <span class="text-red h6 loader-error">Cannot retrieve contributors at this time</span>
-      </div>
-</include-fragment>
+    <div class="Box-body d-flex flex-items-center flex-auto f6 border-bottom-0 flex-wrap" >
+      <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark float-left mr-2" id="blob_contributors_box">
+        <summary class="btn-link">
+          <span><strong>0</strong> contributors</span>
+        </summary>
+        <details-dialog
+          class="Box Box--overlay d-flex flex-column anim-fade-in fast"
+          aria-label="Users who have contributed to this file"
+          src="/Marlena-Janus/scrum_lab_group2/contributors-list/MJ-Widgets/src/images/check-circle-solid.svg" preload>
+          <div class="Box-header">
+            <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
+              <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+            </button>
+            <h3 class="Box-title">
+              Users who have contributed to this file
+            </h3>
+          </div>
+          <include-fragment class="octocat-spinner my-3" aria-label="Loading..."></include-fragment>
+        </details-dialog>
+      </details>
+    </div>
+  </div>
+
 
 
 
@@ -1054,25 +1083,25 @@
 
       1 lines (1 sloc)
       <span class="file-info-divider"></span>
-    522 Bytes
+    595 Bytes
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
       <div class="BtnGroup">
         <a class="btn btn-sm BtnGroup-item tooltipped tooltipped tooltipped-n source "
-          href="/Marlena-Janus/scrum_lab_group2/blob/MJ-Widgets/src/images/chevron-right-solid.svg?short_path=c6389db" aria-label="Display the source blob">
+          href="/Marlena-Janus/scrum_lab_group2/blob/MJ-Widgets/src/images/check-circle-solid.svg?short_path=c75cadc" aria-label="Display the source blob">
           <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
         </a>
         <a class="btn btn-sm BtnGroup-item tooltipped tooltipped-n rendered selected"
-          href="/Marlena-Janus/scrum_lab_group2/blob/MJ-Widgets/src/images/chevron-right-solid.svg" aria-label="Display the rendered blob">
+          href="/Marlena-Janus/scrum_lab_group2/blob/MJ-Widgets/src/images/check-circle-solid.svg" aria-label="Display the rendered blob">
           <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
         </a>
       </div>
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/Marlena-Janus/scrum_lab_group2/raw/MJ-Widgets/src/images/chevron-right-solid.svg">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/Marlena-Janus/scrum_lab_group2/blame/MJ-Widgets/src/images/chevron-right-solid.svg">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/Marlena-Janus/scrum_lab_group2/commits/MJ-Widgets/src/images/chevron-right-solid.svg">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/Marlena-Janus/scrum_lab_group2/raw/MJ-Widgets/src/images/check-circle-solid.svg">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/Marlena-Janus/scrum_lab_group2/blame/MJ-Widgets/src/images/check-circle-solid.svg">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/Marlena-Janus/scrum_lab_group2/commits/MJ-Widgets/src/images/check-circle-solid.svg">History</a>
     </div>
 
 
@@ -1085,13 +1114,13 @@
               <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
           </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/Marlena-Janus/scrum_lab_group2/edit/MJ-Widgets/src/images/chevron-right-solid.svg" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="uXWSOuAIzdkcIdlx8TPE8yE1yhJ2tXDsT9mXZHx7hBOCsHU0JYDOZDQccxgrHVm5AMFdk8OjMGbQZaUoTabXDA==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/Marlena-Janus/scrum_lab_group2/edit/MJ-Widgets/src/images/check-circle-solid.svg" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="orO9LqIyvCg5c7Bo+IDXcIHwZi/UCemb0ASWfm16E4zw9xQtkNX5FbWCKQaxzznFU+ieQyTuPjXqR4n5FobgzA==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Edit this file" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 011.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
             </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/Marlena-Janus/scrum_lab_group2/delete/MJ-Widgets/src/images/chevron-right-solid.svg" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="TrTgIE3aIhLCVkuioGh7hks3l7iIya0UOC4sAEfL+tgQLXoF/hGW6CxXmxFvb3Fy2SnyaD/xQHVjpXEaTCOwqw==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/Marlena-Janus/scrum_lab_group2/delete/MJ-Widgets/src/images/check-circle-solid.svg" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="pzAjfkam2xzHRxr2nSneHLB5DR91MFvDkhf+PV0dxucVtuyGozZkkRkKszwidpT7OejntlQs/dBdpa8t6fZh6g==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Delete this file" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -1109,14 +1138,14 @@
       
   <div class="render-wrapper ">
     <div class="render-container is-render-pending js-render-target  "
-      data-identity="25c3795f-1b62-4035-a61b-bc8fd9c648ed"
+      data-identity="035e2203-2576-4d8b-8c65-87ba5a1ea622"
       data-host="https://render.githubusercontent.com"
       data-type="svg">
       <img class="octospinner mx-auto" alt="" src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif" width="64" height="64" />
-      <div class="render-viewer-error">Sorry, something went wrong. <a href="https://github.com/Marlena-Janus/scrum_lab_group2/blob/MJ-Widgets/src/images/chevron-right-solid.svg">Reload?</a></div>
+      <div class="render-viewer-error">Sorry, something went wrong. <a href="https://github.com/Marlena-Janus/scrum_lab_group2/blob/MJ-Widgets/src/images/check-circle-solid.svg">Reload?</a></div>
       <div class="render-viewer-fatal">Sorry, we cannot display this file.</div>
       <div class="render-viewer-invalid">Sorry, this file is invalid so it cannot be displayed.</div>
-      <iframe class="render-viewer " src="https://render.githubusercontent.com/view/svg?commit=2cf913917d6c3321768afc1d5e513a5ebee0a33a&amp;enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f4d61726c656e612d4a616e75732f736372756d5f6c61625f67726f7570322f326366393133393137643663333332313736386166633164356535313361356562656530613333612f7372632f696d616765732f63686576726f6e2d72696768742d736f6c69642e737667&amp;nwo=Marlena-Janus%2Fscrum_lab_group2&amp;path=src%2Fimages%2Fchevron-right-solid.svg&amp;repository_id=241889238&amp;repository_type=Repository#25c3795f-1b62-4035-a61b-bc8fd9c648ed" sandbox="allow-scripts allow-same-origin allow-top-navigation" title="File display">
+      <iframe class="render-viewer " src="https://render.githubusercontent.com/view/svg?commit=2cf913917d6c3321768afc1d5e513a5ebee0a33a&amp;enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f4d61726c656e612d4a616e75732f736372756d5f6c61625f67726f7570322f326366393133393137643663333332313736386166633164356535313361356562656530613333612f7372632f696d616765732f636865636b2d636972636c652d736f6c69642e737667&amp;nwo=Marlena-Janus%2Fscrum_lab_group2&amp;path=src%2Fimages%2Fcheck-circle-solid.svg&amp;repository_id=241889238&amp;repository_type=Repository#035e2203-2576-4d8b-8c65-87ba5a1ea622" sandbox="allow-scripts allow-same-origin allow-top-navigation" title="File display">
           Viewer requires iframe.
       </iframe>
     </div>

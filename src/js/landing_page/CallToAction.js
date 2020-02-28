@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 class CallToAction extends React.Component {
   render() {
@@ -15,11 +16,13 @@ class CallToAction extends React.Component {
           </p>
         </div>
         <div className="callAction__buttonBox">
-          <button className="callAction__buttonBox-btn">Lorem ipsum</button>
+          <NavLink to="/application/buttons" className="callAction__buttonBox-btn">Lorem ipsum</NavLink>
         </div>
       </div>
     );
   }
 }
+
+
 
 export default CallToAction;

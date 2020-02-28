@@ -20,6 +20,7 @@ componentDidMount() {
 
 renderPlan = () =>{
     if (this.state.display==="yes"){
+      console.log(this.state.recipies)
         return(<div >
                         <div className="RecipientListHeader">
                           <div className="id">ID</div>
@@ -33,8 +34,8 @@ renderPlan = () =>{
                               <div className ="name">{reciep.name}</div>
                               <div className="description">{reciep.description}</div>
                               <div>
-                                <i class="far fa-edit"></i>
-                                <i class="fas fa-trash-alt"></i>
+                                <i className="far fa-edit"></i>
+                                <i className="fas fa-trash-alt"></i>
                               </div>
                             </div>)
                         })}

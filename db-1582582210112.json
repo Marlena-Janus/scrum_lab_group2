@@ -1,6 +1,6 @@
 {
   "user": {
-    "name": ""
+    "name": "Mateusz Cyrys"
   },
   "recipes": [
     {
@@ -69,6 +69,61 @@
         3,
         4,
         5
+      ]
+    },
+    {
+      "id": "3",
+      "planName": "wwww",
+      "description": "dwadaw",
+      "weekNumber": "2",
+      "monday": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "tuesday": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "wednesday": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "thrusday": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "friday": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "satruday": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "sunday": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
       ]
     }
   ]

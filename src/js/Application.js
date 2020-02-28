@@ -4,8 +4,9 @@ import Buttons from './Buttons'
 import UserIcon from '../images/user-circle-regular.svg';
 import Background from '../images/image.png';
 import Chevron from '../images/chevron-right-solid.svg';
-import WeekPlan from "./WeekPlan";
 import RecipientList from "./RecipiesList"
+
+
 
 import {
   HashRouter,
@@ -13,6 +14,7 @@ import {
   Switch,
   NavLink,
 } from 'react-router-dom';
+
 
 class Application extends React.Component{
   constructor(props) {
@@ -28,6 +30,7 @@ componentDidMount() {
     .then(response => response.json())
     .then(data => this.setState({ username: data.name }));
 }
+
 
 handleClick = () => {
   const data = { name: this.state.name };
@@ -49,6 +52,9 @@ handleClick = () => {
       });
 }
 
+handleChange = e => {
+  this.setState({name: e.target.value});
+};
 
   renderPage = () =>{
     
@@ -66,7 +72,7 @@ handleClick = () => {
     else{
       return<div>
               <Switch>
-                <Route path='/application/buttons' component={Buttons} />
+                <Route path='/application/buttons' component={Buttons}  />
               </Switch>
             </div>
     }
@@ -107,12 +113,12 @@ handleClick = () => {
             </div>
             <div>
                 <Switch>
-                  <Route path='/application/WeekPlan' component={WeekPlan} />
+                 
                   <Route path='/application/recipientList' component={RecipientList} />
                 </Switch>
             </div>
             </section>
-          </div>
+          </div>       
           </HashRouter>
           </>
         

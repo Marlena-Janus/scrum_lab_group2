@@ -1,6 +1,6 @@
 {
   "user": {
-    "name": ""
+    "name": "Mateusz Cyrys"
   },
   "recipes": [
     {
@@ -13,6 +13,15 @@
       "ingredients": [
         "Pomidory"
       ]
+    },
+    {
+      "data": {
+        "name": "Mateusz",
+        "description": "wddw",
+        "steps": "awdawdawd",
+        "ingredients": "awdawd"
+      },
+      "id": 2
     }
   ],
   "schedules": [

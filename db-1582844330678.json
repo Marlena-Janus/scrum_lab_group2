@@ -1,0 +1,270 @@
+{
+  "user": {
+    "name": "Mateusz Cyrys"
+  },
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Zupa pomidorowa",
+      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
+      "steps": [
+        "Wlej wodę do garnka"
+      ],
+      "ingredients": [
+        "Pomidory"
+      ]
+    },
+    {
+      "0": {
+        "id": 1,
+        "name": "Zupa pomidorowa",
+        "description": "Pyszna zupa pomidorowa z całych pomidorów.",
+        "steps": [
+          "Wlej wodę do garnka"
+        ],
+        "ingredients": [
+          "Pomidory"
+        ]
+      },
+      "data": {
+        "name": "Mateusz Cyrys",
+        "description": "fsefsef",
+        "steps": "eaefeaef",
+        "ingredients": "aefaef"
+      },
+      "id": 2
+    },
+    {
+      "0": {
+        "id": 1,
+        "name": "Zupa pomidorowa",
+        "description": "Pyszna zupa pomidorowa z całych pomidorów.",
+        "steps": [
+          "Wlej wodę do garnka"
+        ],
+        "ingredients": [
+          "Pomidory"
+        ]
+      },
+      "1": {
+        "0": {
+          "id": 1,
+          "name": "Zupa pomidorowa",
+          "description": "Pyszna zupa pomidorowa z całych pomidorów.",
+          "steps": [
+            "Wlej wodę do garnka"
+          ],
+          "ingredients": [
+            "Pomidory"
+          ]
+        },
+        "data": {
+          "name": "Mateusz Cyrys",
+          "description": "fsefsef",
+          "steps": "eaefeaef",
+          "ingredients": "aefaef"
+        },
+        "id": 2
+      },
+      "data": {
+        "name": "Mateusz Cyrys",
+        "description": "fsefsef",
+        "steps": "eaefeaef",
+        "ingredients": "aefaef"
+      },
+      "id": 3
+    },
+    {
+      "0": {
+        "id": 1,
+        "name": "Zupa pomidorowa",
+        "description": "Pyszna zupa pomidorowa z całych pomidorów.",
+        "steps": [
+          "Wlej wodę do garnka"
+        ],
+        "ingredients": [
+          "Pomidory"
+        ]
+      },
+      "1": {
+        "0": {
+          "id": 1,
+          "name": "Zupa pomidorowa",
+          "description": "Pyszna zupa pomidorowa z całych pomidorów.",
+          "steps": [
+            "Wlej wodę do garnka"
+          ],
+          "ingredients": [
+            "Pomidory"
+          ]
+        },
+        "data": {
+          "name": "Mateusz Cyrys",
+          "description": "fsefsef",
+          "steps": "eaefeaef",
+          "ingredients": "aefaef"
+        },
+        "id": 2
+      },
+      "2": {
+        "0": {
+          "id": 1,
+          "name": "Zupa pomidorowa",
+          "description": "Pyszna zupa pomidorowa z całych pomidorów.",
+          "steps": [
+            "Wlej wodę do garnka"
+          ],
+          "ingredients": [
+            "Pomidory"
+          ]
+        },
+        "1": {
+          "0": {
+            "id": 1,
+            "name": "Zupa pomidorowa",
+            "description": "Pyszna zupa pomidorowa z całych pomidorów.",
+            "steps": [
+              "Wlej wodę do garnka"
+            ],
+            "ingredients": [
+              "Pomidory"
+            ]
+          },
+          "data": {
+            "name": "Mateusz Cyrys",
+            "description": "fsefsef",
+            "steps": "eaefeaef",
+            "ingredients": "aefaef"
+          },
+          "id": 2
+        },
+        "data": {
+          "name": "Mateusz Cyrys",
+          "description": "fsefsef",
+          "steps": "eaefeaef",
+          "ingredients": "aefaef"
+        },
+        "id": 3
+      },
+      "data": {
+        "name": "Mateusz Cyrys222",
+        "description": "wwwwwwwwwwwww",
+        "steps": "wwwww",
+        "ingredients": "dddddddd"
+      },
+      "id": 4
+    }
+  ],
+  "schedules": [
+    {
+      "id": 1,
+      "name": "Wegetariański tydzień",
+      "description": "Długi opis tygodnia bez mięsa.",
+      "weekNumber": 1,
+      "monday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "tuesday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "wednesday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "thrusday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "friday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "satruday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "sunday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "3",
+      "planName": "wwww",
+      "description": "dwadaw",
+      "weekNumber": "2",
+      "monday": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "tuesday": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "wednesday": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "thrusday": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "friday": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "satruday": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "sunday": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    }
+  ]
+}

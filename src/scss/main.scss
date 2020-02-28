@@ -1,32 +1,9 @@
 @import "./settings/colors";
 @import "./settings/sizes";
 
-.modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width:100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
+@import "./generic/reset";
+@import "./generic/basic";
 
-  .modal-main {
-    position:fixed;
-    background: white;
-    width: 80%;
-    height: auto;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-  }
-}
-
-.display-block {
-  display: block;
-}
-
-.display-none {
-  display: none;
-}
 @import "./landing_page/aboutUs";
 @import "./landing_page/aboutAuthor";
 @import "./landing_page/footer";
@@ -36,18 +13,17 @@
 @import "./landing_page/callToAction";
 @import "./landing_page/carousel";
 @import "./landing_page/navigation";
-
-@import "./generic/reset";
-@import "./generic/basic";
-
-
-
-
+@import "./addNewRecipe.scss";
+@import "./modal";
+@import "./weekPlan";
+@import "./receipientList";
 @import "./components/initialPage";
+@import "./widget";
+@import "./plan";
+
 
 @import "./main-page";
 @import "./buttons";
-@import "./weekPlan";
-@import "./receipientList";
-@import "./components/header_marlena";
 
+
+@import "./components/header_marlena";
