@@ -7,7 +7,7 @@ class AddNewPlan extends React.Component{
           recipies: [],
           display: "no",
           id: "3",
-          planName: "",
+          name: "",
           description: "",
           weekNumber: "",
           monday: ["Posiłek","Posiłek","Posiłek","Posiłek","Posiłek"],
@@ -34,7 +34,7 @@ class AddNewPlan extends React.Component{
     handleClick = () => {
         const data = { 
             id: this.state.id +1,
-            planName: this.state.planName,
+            name: this.state.name,
             description: this.state.description,
             weekNumber: this.state.weekNumber,
             monday: this.state.monday,
@@ -121,7 +121,7 @@ render(){
             </div>
             <div className="meal-plan-desription">
                 <p>Nazwa planu</p>
-                <input type="text" id="plan-name" name="planName" onChange={this.handleChange}></input>
+                <input type="text" id="plan-name" name="name" onChange={this.handleChange}></input>
             </div>
             <div className="meal-plan-desription">
                 <p>Opis planu</p>
@@ -147,7 +147,7 @@ render(){
                     <tr>
                     <td className="weekday">PONIEDZIAŁEK</td>
                     <td>
-                        <select name="choose-meal" id='0' Value={'DEFAULT'} onChange={this.monday}>
+                        <select name="choose-meal" id='0' defaultValue={'DEFAULT'} onChange={this.monday}>
                         <option value="DEFAULT" disabled>Posiłek</option>
                         {this.state.recipies.map((e,idx) =>{return <option key={idx} value={e.name}>{e.name}</option>})}    
                         </select>

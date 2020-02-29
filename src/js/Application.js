@@ -5,6 +5,7 @@ import UserIcon from '../images/user-circle-regular.svg';
 import Background from '../images/image.png';
 import Chevron from '../images/chevron-right-solid.svg';
 import RecipientList from "./RecipiesList"
+import PlanList from './PlanList'
 
 
 
@@ -84,9 +85,8 @@ handleChange = e => {
         <>
         <HashRouter>
           <header className="center">
-          <h1>
-            <span id="first">Zaplanuj</span>
-            <span id="second">Jedzonko</span>
+          <h1 className="header-logo">
+          Zaplanuj&nbsp;<span>Jedzonko</span>
           </h1>
           <div className="user">
             <p>{this.state.username}</p>
@@ -113,7 +113,7 @@ handleChange = e => {
             </div>
             <div>
                 <Switch>
-                 
+                  <Route path='/application/WeekPlan' component={PlanList} />
                   <Route path='/application/recipientList' component={RecipientList} />
                 </Switch>
             </div>

@@ -1,0 +1,247 @@
+{
+  "user": {
+    "name": "Mateusz Cyrys"
+  },
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Zupa pomidorowa",
+      "description": "Pyszna zupa pomidorowa z całych pomidorów.",
+      "steps": [
+        "Wlej wodę do garnka"
+      ],
+      "ingredients": [
+        "Pomidory"
+      ]
+    },
+    {
+      "name": "wd",
+      "description": "wd",
+      "steps": [],
+      "ingredients": [],
+      "id": 2
+    }
+  ],
+  "schedules": [
+    {
+      "id": 1,
+      "name": "Wegetariański tydzień",
+      "description": "Długi opis tygodnia bez mięsa.",
+      "weekNumber": 1,
+      "monday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "tuesday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "wednesday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "thrusday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "friday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "satruday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "sunday": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 2,
+      "planName": "vsev",
+      "description": "sevs",
+      "weekNumber": "2",
+      "monday": [
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek"
+      ],
+      "tuesday": [
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek"
+      ],
+      "wednesday": [
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek"
+      ],
+      "thrusday": [
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek"
+      ],
+      "friday": [
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek"
+      ],
+      "satruday": [
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek"
+      ],
+      "sunday": [
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek"
+      ]
+    },
+    {
+      "id": 3,
+      "planName": "vsev",
+      "description": "sevs",
+      "weekNumber": "3",
+      "monday": [
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek"
+      ],
+      "tuesday": [
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek"
+      ],
+      "wednesday": [
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek"
+      ],
+      "thrusday": [
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek"
+      ],
+      "friday": [
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek"
+      ],
+      "satruday": [
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek"
+      ],
+      "sunday": [
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek"
+      ]
+    },
+    {
+      "id": 4,
+      "planName": "vsevff",
+      "description": "sevs",
+      "weekNumber": "3",
+      "monday": [
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek"
+      ],
+      "tuesday": [
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek"
+      ],
+      "wednesday": [
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek"
+      ],
+      "thrusday": [
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek"
+      ],
+      "friday": [
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek"
+      ],
+      "satruday": [
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek"
+      ],
+      "sunday": [
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek",
+        "Posiłek"
+      ]
+    }
+  ]
+}
